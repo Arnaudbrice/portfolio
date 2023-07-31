@@ -7,7 +7,15 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Gerbera';
+  src: url('./assets/fonts/Gerbera.eot');
+  src: url('./assets/fonts/Gerbera.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Gerbera.woff2') format('woff2'),
+      url('./assets/fonts/Gerbera.woff') format('woff'),
+      url('./assets/fonts/Gerbera.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   text-align: center;
   scroll-behavior: smooth;
 }
