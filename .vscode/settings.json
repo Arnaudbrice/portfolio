@@ -1,4 +1,486 @@
 {
-  "terminal.integrated.fontFamily": "ArnoMono",
-  "terminal.integrated.fontSize": 16
+    "sync.gist": "3900a9daba2a774734c954775c8af458",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "editor.lineNumbersMinChars":1,
+    "editor.glyphMargin": false,
+    "editor.folding": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+
+
+    "auto-close-tag.fullMode": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "jshint.lintHTML": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // Set the default
+
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+
+
+
+
+
+        // "editor.background": "#282831",
+        // "editor.background": "#29313A",
+        "editor.background": "#36404B",
+
+
+      "sideBar.background": "#29313A",
+
+      "activityBarBadge.background": "#22262B",
+      "activityBar.background": "#22262B"
+      // "editor.powermode.enabled": true,
+      // "editor.powermode.presets": "magic"
+    },
+
+    "editor.quickSuggestionsDelay": 0,
+    // Font size for the suggest widget
+    "editor.suggestFontSize": 15,
+
+     // Enables pop-up that shows parameter documentation and type information as you type
+    "editor.parameterHints": true,
+     // Controls if the editor should automatically close brackets after opening them
+    "editor.autoClosingBrackets": "always",
+
+    "emmet.includeLanguages": {
+      "javascript": "html,javascriptreact",
+       "ejs": "html , css, javascript",
+      "vue-html": "html",
+      "plaintext": "jade",
+      "jsx":"html",
+      "javascriptreact":"html",
+      "JavaScript React":"html",
+         "css": "css"
+
+
+    },
+
+    "html.suggest.html5": true,
+
+    "docthis.includeDescriptionTag": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "workbench.sideBar.location": "left",
+    "window.title": "${activeEditorLong}${separator}${rootPath}",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.language": "en,de-de",
+
+    "cSpell.ignoreWords": [
+    "[a-z0-9_]+"
+  ],
+
+    "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "c",
+      "cpp",
+      "csharp",
+      "css",
+      "git-commit",
+      "go",
+      "handlebars",
+      "html",
+      "jade",
+      "java",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "jsonc",
+      "latex",
+      "less",
+      "markdown",
+      "php",
+      "plaintext",
+      "pug",
+      "python",
+      "restructuredtext",
+      "rust",
+      "scala",
+      "scss",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yaml",
+      "yml"
+    ],
+    "workbench.enableExperiments": false,
+    "update.mode": "manual",
+    "extensions.autoUpdate": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.statusBar.visible": true,
+    "terminal.integrated.lineHeight": 0,
+    "workbench.activityBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.settings.openDefaultSettings": true,
+    "files.associations": {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "*.jsx": "javascriptreact",
+
+
+    },
+
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "editor.fontLigatures": true,
+    "editor.codeLens": false,
+    "presentationMode.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "[javascriptreact]": {
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "typescript.format.semicolons": "insert",
+    "html.format.indentInnerHtml": true,
+    "editor.peekWidgetDefaultFocus": "editor",
+    "guides.active.gutter": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.matchBrackets": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "javascript.format.semicolons": "insert",
+    // "sync.autoUpload": true,
+    // "chat.autoLaunchLiveShareChat": false,
+    // "sync.removeExtensions": false,
+    // "smartsemicolon.autoLineChange": false,
+  "smartsemicolon.enable": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.insertPragma": true,
+    "prettier.requireConfig": true,
+    "prettier.requirePragma": true,
+
+    "beautify.language": {
+      "js": {
+        "type": ["javascript", "json"],
+        "filename": [".jshintrc", ".jsbeautifyrc"]
+        // "ext": ["js", "json"]
+        // ^^ to set extensions to be beautified using the javascript beautifier
+      },
+      "css": ["css", "scss"],
+      "html": ["htm", "html", "ejs"],
+
+
+      // ^^ providing just an array sets the VS Code file type
+
+
+  },
+  "[ejs]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+      // "editor.defaultFormatter": "mblode.pretty-formatter"
+
+  },
+  "workbench.iconTheme": "vscode-icons",
+
+  "hungryDelete.enableSmartBackspace": false,
+  "powermode.enableShake": true,
+  "pretty-formatter.tagSort": true,
+  "alform.experimental": true,
+  "editor.codeActionsOnSave": null,
+  "rest-client.fontWeight": "normal",
+  "java.semanticHighlighting.enabled": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "better-comments.tags": [
+
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "editor.fontFamily": "ArnoMono,JetBrainsMonoNL-Regular, GopherMono-Regular,ArnoMono,MonospaceTypewriter, GopherMono-Regular,JetBrainsMonoNL-Regular,SFMono-Regular,SohneMono-Buch, JetBrainsMono-Regular,Whois-mono,JetBrainsMono-Regular, RobotoMono-Regular,SFMono-Regular,BPrever,JetBrainsMono-Regular,SourceSerif4Italic-Italic,GopherMono-Regular,BPrever, RecursiveMonoLnr-Regular,Courier Prime Code,Office Code Pro,Source Code Pro,BPrever,Input Mono,Source Code Pro,SFMono-Regular,Comic Mono, Input Mono ,FiraCode-Retina, PT Mono, Courier Prime Code,  Lucida Console,menlo, monaco, Source Code Pro, Droid Sans Mono, Dank Mono",
+  "editor.tabCompletion": "on",
+
+
+
+   "editor.tokenColorCustomizations": {
+        "textMateRules": [
+
+         "functions":"#66D9EF",
+   "comments": "#545557",
+          {
+            "scope": [
+              "comment",
+              "comment.block",
+              "comment.block.documentation",
+              "comment.line",
+              "constant",
+              "constant.character",
+              "constant.character.escape",
+              "constant.numeric",
+              "constant.numeric.integer",
+              "constant.numeric.float",
+              "constant.numeric.hex",
+              "constant.numeric.octal",
+              "constant.other",
+              "constant.regexp",
+              "constant.rgb-value",
+              "emphasis",
+              "entity",
+              "entity.name",
+              "entity.name.class",
+              "entity.name.function",
+              "entity.name.method",
+              "entity.name.section",
+              "entity.name.selector",
+              "entity.name.tag",
+              "entity.name.type",
+              "entity.other",
+              "entity.other.attribute-name",
+              "entity.other.inherited-class",
+              "invalid",
+              "invalid.deprecated",
+              "invalid.illegal",
+              "keyword",
+              "keyword.control",
+              "keyword.operator",
+              "keyword.operator.new",
+              "keyword.operator.assignment",
+              "keyword.operator.arithmetic",
+              "keyword.operator.logical",
+              "keyword.other",
+              "markup",
+              "markup.bold",
+              "markup.changed",
+              "markup.deleted",
+              "markup.heading",
+              "markup.inline.raw",
+              "markup.inserted",
+              "markup.italic",
+              "markup.list",
+              "markup.list.numbered",
+              "markup.list.unnumbered",
+              "markup.other",
+              "markup.quote",
+              "markup.raw",
+              "markup.underline",
+              "markup.underline.link",
+              "meta",
+              "meta.block",
+              "meta.cast",
+              "meta.class",
+              "meta.function",
+              "meta.function-call",
+              "meta.preprocessor",
+              "meta.return-type",
+              "meta.selector",
+              "meta.tag",
+              "meta.type.annotation",
+              "meta.type",
+              "punctuation.definition.string.begin",
+              "punctuation.definition.string.end",
+              "punctuation.separator",
+              "punctuation.separator.continuation",
+              "punctuation.terminator",
+              "storage",
+              "storage.modifier",
+              "storage.type",
+              "string",
+              "string.interpolated",
+              "string.other",
+              "string.quoted",
+              "string.quoted.double",
+              "string.quoted.other",
+              "string.quoted.single",
+              "string.quoted.triple",
+              "string.regexp",
+              "string.unquoted",
+              "strong",
+              "support",
+              "support.class",
+              "support.constant",
+              "support.function",
+              "support.other",
+              "support.type",
+              "support.type.property-name",
+              "support.variable",
+              "variable",
+              "variable.language",
+              "variable.name",
+              "variable.other",
+              "variable.other.readwrite",
+              "variable.parameter"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+    "oneDarkPro.italic": false,
+
+
+
+  "editor.linkedEditing": true,
+  "editor.semanticTokenColorCustomizations": null,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.fontFamily": "ArnoMono,JetBrainsMonoNL-Regular, GopherMono-Regular,Source Code Pro For Powerline, Menlo For Powerline",
+  "typescript.tsdk": "",
+  "vsicons.dontShowNewVersionMessage": true,
+  "java.configuration.runtimes": [],
+  "[java]": {
+
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.defaultFormatter": "redhat.java"
+},
+"java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home",
+"java.help.firstView": "gettingStarted",
+
+
+"workbench.useExperimentalGridLayout": true,
+"customizeUI.activityBar": "bottom",
+"customizeUI.activityBarHideSettings": true,
+"editor.defaultFormatter": "vscode.configuration-editing",
+"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+"php-cs-fixer.lastDownload": 1606745978234,
+"window.zoomLevel": 1,
+"editor.quickSuggestions": {
+  "comments": "on",
+  "strings": "on",
+  "other": "on"
+},
+"path-autocomplete.triggerOutsideStrings": true,
+"intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+"html-css-class-completion.enableFindUsage": true,
+"workbench.settings.openDefaultKeybindings": true,
+"[jsonc]": {
+
+  "editor.quickSuggestions": {
+    "strings": false
+  },
+  "editor.suggest.insertMode": "replace"
+},
+"editor.suggest.showProperties": true,
+"editor.wordBasedSuggestions": true,
+"emmet.showSuggestionsAsSnippets": true,
+
+// todo:suggestion position
+ "editor.snippetSuggestions": "top",
+"editor.suggestSelection": "first",
+"editor.suggest.showWords": false,
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"git.autofetch": true,
+"explorer.compactFolders": false,
+"workbench.colorTheme": "Dark++",
+"editor.fontWeight": "normal",
+"terminal.integrated.tabs.enabled": true,
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoIndent": true,
+   "editor.formatOnSave": false
+},
+"mssql.connections": [
+  {
+    "server": "{{put-server-name-here}}",
+    "database": "{{put-database-name-here}}",
+    "user": "{{put-username-here}}",
+    "password": ""
+  }
+],
+"editor.lineHeight": 1.7,
+"editor.guides.indentation": true,
+"editor.tabSize": 2,
+"terminal.integrated.automationProfile.osx": {},
+"bracketPairColorizer.depreciation-notice": false,
+"npm.keybindingsChangedWarningShown": true,
+"editor.fontSize": 19,
+"editor.rulers": [],
+"xmlTools.xqueryExecutionArguments": [
+  "-xquery",
+  "$(script)",
+  "-in",
+  "$(input)",
+  "-out",
+  "$(input).output.xml"
+],
+"eslint.codeActionsOnSave.rules": null,
+"html.format.contentUnformatted": "style",
+ "esbenp.prettier-vscode:true",
+ "html-css-class-completion.enableEmmetSupport": true,
+
+
+"emmet.syntaxProfiles": {
+
+    "jsx": {
+        "self_closing_tag": true
+    }
+},
+
+"emmet.showExpandedAbbreviation":"always",
+"emmet.triggerExpansionOnTab":true,
+"emmet.showAbbreviationSuggestions":true,
+
+
+{
+  // Default source language for translation.
+  "translation.source-language": "auto",
+
+  // Default target language for translation.
+  "translation.target-language": "de",
+
+  // Specifies how to display the result of simple translation.
+  "translation.simple-display-mode": "notification",
+"css.validate": false,
+
+},
+
+
+
+
+
+
+
 }
+
+
